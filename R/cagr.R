@@ -14,6 +14,8 @@
 #'
 #' cagr(1, 2, 1)
 #'
+#' @keywords factoRtools
+#'
 cagr <- function(begin, final, period) {
   if (period <= 0) { # Checks if period is equal or less than zero
     stop("Period must be greater than zero.")
